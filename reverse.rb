@@ -1,7 +1,7 @@
 # Method to recursively reverse a string
 def reverse(text)
   # Base case: return the text if it's either empty or a single character
-  return text if text.length <= 1
+  return text if text.length == 1
   
   # Get the last character of the string
   last_character = text[-1]
